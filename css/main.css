@@ -1,3 +1,8 @@
-.body{
-    background-color: grey;
+body{
+    background: #455A64;
+}
+
+.main{
+    color: #FFFFFF;
+    text-align: center;
 }
