@@ -2,6 +2,31 @@ body{
     background: #455A64;
 }
 
+.avatar{
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.header{
+    background-color: #ecf0f1;
+}
+
+.title{
+    font-family: 'Nunito', sans-serif;    
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: #455A64;
+}
+
+td{
+    padding: 10px;
+}
+
+.description{
+    color: black;
+    padding-left: 10px;
+}
+
 .main{
     color: #FFFFFF;
     text-align: center;
