@@ -4,7 +4,6 @@ body{
 
 .avatar{
     border-radius: 50%;
-    padding: 1rem;
 }
 
 .header{
@@ -15,17 +14,20 @@ body{
     font-family: 'Nunito', sans-serif;    
     font-size: 2rem;
     padding-bottom: 10px;
+    padding-top: 20px;
     color: #455A64;
-}
-
-td{
-    padding: 10px;
 }
 
 .description{
     color: black;
     padding-left: 10px;
 }
+
+td{
+    padding: 10px;
+}
+
+
 
 .main{
     color: #FFFFFF;
