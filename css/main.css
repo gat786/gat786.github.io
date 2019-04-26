@@ -2,7 +2,9 @@ body{
     background: #455A64;
 }
 
-
+.personal-desc{
+    text-align:justify;
+}
 
 .avatar{
     border-radius: 50%;
