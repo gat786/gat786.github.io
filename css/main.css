@@ -6,6 +6,7 @@ body{
     text-align:justify;
 }
 
+
 .avatar{
     border-radius: 50%;
 }
@@ -16,15 +17,13 @@ body{
 
 .title{
     font-family: 'Nunito', sans-serif;    
-    font-size: 2rem;
-    padding-bottom: 10px;
-    padding-top: 20px;
+    font-size: 3rem;
+    padding: auto;
     color: #455A64;
 }
 
 .description{
     color: black;
-    padding-left: 10px;
 }
 
 td{

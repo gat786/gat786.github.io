@@ -7,22 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 </head>
 <body>
-    <div class="header row">
-        <div class="col-md-4 py-4">
+    <div class="header row justify-content-center">
+        <div class="col-md-3 py-4">
             <center>
                 <img src="img/profile.jpg" class="avatar" height="250" alt="Avatar">
             </center>
         </div>
-        <div class="col-md-8 h-100 text-center">
-                <p class="title">Ganesh Tiwari</p>
-                <p class="description">Mobile Developer,</p>
-                <p class="description">Part Time Actor,</p> 
-                <p class="description">Fun Loving Person,</p> 
-                <p class="description">Kid At Heart &#9825;</p> 
+        <div class="col col-md-3 text-center align-middle title ">
+            <table height="100%" width="100%">
+                <tr>
+                    <td class="align-middle">
+                        <p class="title">Ganesh Tiwari</p> 
+                    </td>
+                </tr>
+            </table>    
+            
+        </div>
+        <div class="col-md-3">
+            <table height="100%"  width="100%">
+                <tr>
+                    <td class="align-middle">
+                        <p class=" text-center description">Mobile Developer,</p>
+                        <p class="description text-center ">Part Time Actor,</p> 
+                        <p class="description text-center ">Fun Loving Person,</p> 
+                        <p class="description text-center ">Kid At Heart &#9825;</p>                     
+                    </td>
+                </tr>
+            </table>   
+            
         </div>
     </div>
 
@@ -31,28 +47,34 @@
             About Me.
         </div>
 
-        <div class="row">
-            <div class="col-sm-6 d-flex m-2">
-                <div class="card d-inline-block m-auto">
-                    <p class="personal-desc card-body text-capitalize text-dark">
-                        Hi. <br>
-                        my name is ganesh tiwari. <br>
-                        i am a software developer <br>
-                        and also a little bit of <br> 
-                        fun person. I like to build <br> 
-                        system related software's <br> 
-                        such as mobile applications, <br>
-                        python scripts, Desktop <br> 
-                        applications Etc.</p> 
+        <div class="row justify-content-center">
+            <div class="col-md-3 m-2 text-center">
+                <div class="card  d-inline-block  m-auto">
+                    <div class="card-body">
+                        <p class="personal-desc text-capitalize text-dark">
+                                Hi. <br>
+                                my name is ganesh tiwari. <br>
+                                i am a software developer <br>
+                                and also a little bit of <br> 
+                                fun person. I like to build <br> 
+                                system related software's <br> 
+                                such as mobile applications, <br>
+                                python scripts, Desktop <br> 
+                                applications Etc.</p> 
+                        <a href="http://webxstudio.in">
+                            Hire Me Now.
+                        </a>
+                    </div>
+                    
                 </div>
             </div>
 
-            <div class="col d-flex flex-column">
-                <div class="mb-3 text-center text-white">
+            <div class="col-md-3 my-auto">
+                <div class="text-center text-white mb-2">    
                     Technologies that i have worked with.
                 </div>
             
-                <div class="list-languages mb-4 text-center">
+                <div class="list-languages text-center">
                     <ul class="list-group d-inline-block">
                         <li class="list-group-item">Kotlin</li>
                         <li class="list-group-item">Java</li>
@@ -61,6 +83,7 @@
                         <li class="list-group-item">.Net Development</li>
                     </ul>
                 </div>
+
             </div>
         </div>
 
@@ -68,34 +91,46 @@
 
 
     <div class="projects-list">
-        <div class="d-flex justify-content-center m-2">Some of my projects are listed below.</div>
+        <div class="d-flex justify-content-center my-3">Some of my projects are listed below.</div>
             
-        <div class="row">
-            <div class="col">
-                <a href="https://github.com/gat786/QuizAppNew">
-                    <div class="card p-1 m-auto" style="width:15rem;">
+        <div class="row justify-content-center h-100">
+            <div class="col-md-2 my-3">
+
+                    <div class="card text-white bg-dark p-1 m-auto" style="width:15rem;">
                         <img src="img/quiz_choice.png" class="card-img-top" alt="Choice Image">
                         <div class="card-body">
                             <div class="card-title">
                                 QuizApp
                             </div>
+                            <a href="https://github.com/gat786/QuizAppNew" class="btn btn-primary">
+                                View the source Code
+                            </a>
                         </div>
                     </div>
-                </a>
+                
             </div>
 
             
-            <div class="col">
-                <a href="https://github.com/gat786/controller">
-                    <div class="card p-1 m-auto" style="width:15rem;">
-                        <img src="img/iot-rover.jpg" class="card-img-top" alt="IOT Rover">
-                        <div class="card-body">
-                            <div class="card-title">
-                                IOT Rover
-                            </div>
-                        </div>
-                    </div>
-                </a>
+            <div class="col-md-2 my-3">
+                    <table height="100%"  width="100%">
+                        <tr>
+                            <td class="align-middle">
+                                <div class="card text-white bg-dark p-1 m-auto" style="width:15rem;">
+                                    <img src="img/iot-rover.jpg" class="card-img-top" alt="IOT Rover">
+                                    <div class="card-body">
+                                        <div class="card-title">
+                                            IOT Rover
+                                        </div>
+                                        <a href="https://github.com/gat786/controller" class="btn btn-primary">
+                                            View the source code
+                                        </a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>  
+                
+                    
             </div>
 
         </div>
